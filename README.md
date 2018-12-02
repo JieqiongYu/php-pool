@@ -7,4 +7,6 @@
    * Section 2 - Data Types and More 
    * Section 3 - Control Structures 
    * Section 4 - Custom Functions 
+   * Section 5 - PHP Built-in Functions 
+   
    
