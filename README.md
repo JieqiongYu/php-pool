@@ -6,3 +6,5 @@
    * Section 1 - The First Steps
    * Section 2 - Data Types and More 
    * Section 3 - Control Structures 
+   * Section 4 - Custom Functions 
+   
