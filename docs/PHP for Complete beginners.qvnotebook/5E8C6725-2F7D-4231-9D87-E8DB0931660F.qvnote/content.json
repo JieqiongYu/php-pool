@@ -1,0 +1,145 @@
+{
+  "title": "2 - Data Types and More",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h3>10. Variables in PHP</h3>"
+    },
+    {
+      "type": "text",
+      "data": "variables.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php \n  $name = 'Mer';\n  $number = 13;\n  \n  // String concatenation \n  echo $name . $number;\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>11. Math</h3>"
+    },
+    {
+      "type": "text",
+      "data": "math.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  echo 56 + 45;\n  echo 56 - 45;\n  echo 56 * 45;\n  echo 56 / 45;\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>12. Arrays</h3>"
+    },
+    {
+      "type": "text",
+      "data": "arrays.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  // array() method is the old way\n  // the new way looks like this:\n  // $numberList = [267,8765,345,'5345',345,'<h1>Hello</h1>'];\n  $numberList = array(267,8765,345,'5345',345,'<h1>Hello</h1>');\n    \n  echo $numberList[0];\n  echo \"<br>\";\n  \n  print_r($numberList);\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>13. Associate Arrays</h3>"
+    },
+    {
+      "type": "text",
+      "data": "arrays_assoc.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  $number = array('juanita', 'maria', 'jose');\n  \n  echo $number[2] . \"<br>\";\n  print_r($number);\n  echo \"<br>\";\n  \n  $names = array(\"first_name\" => 'Mer');\n  print_r($names);\n  echo \"<br>\";\n  echo $names[first_name];\n?>"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

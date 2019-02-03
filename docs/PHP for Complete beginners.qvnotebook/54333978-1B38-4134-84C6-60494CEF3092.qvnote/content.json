@@ -1,0 +1,165 @@
+{
+  "title": "1 - The First Steps ",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h3>3. Local Development Environment Tools&nbsp;</h3>"
+    },
+    {
+      "type": "text",
+      "data": "Local Environment: MAMP"
+    },
+    {
+      "type": "text",
+      "data": "<a href=\"https://www.mamp.info/en/downloads/\">https://www.mamp.info/en/downloads/</a><br>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>4. Course Exercise / Reference Files</h3>"
+    },
+    {
+      "type": "text",
+      "data": "<a href=\"quiver-file-url/8C727AA6-1DCB-4F39-BBDC-26F1190F4A7B\">_practical-app</a>"
+    },
+    {
+      "type": "text",
+      "data": "Copy the project folder in the following path"
+    },
+    {
+      "type": "code",
+      "language": "yaml",
+      "data": "Applications/MAMP/htdocs/"
+    },
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/CE3E08013C5B6B3F666C670D3896DFF5.png\" alt=\"Screen Shot 2018-11-23 at 2.51.26 PM.png\" width=\"908\" height=\"433\">"
+    },
+    {
+      "type": "text",
+      "data": "Hit to check&nbsp;<a href=\"http://localhost:8888/_practical-app/\">http://localhost:8888/_practical-app/</a>&nbsp;"
+    },
+    {
+      "type": "text",
+      "data": "<a href=\"http://localhost:8888/php-pool/_practical-app/\">http://localhost:8888/php-pool/_practical-app/</a>"
+    },
+    {
+      "type": "text",
+      "data": "Make a symbolic link from code repository to htdocs, here’s the command"
+    },
+    {
+      "type": "code",
+      "language": "yaml",
+      "data": "$ ln -s /Users/jieyu/Documents/stuff/PHP-udemy/php-pool /Applications/MAMP/htdocs"
+    },
+    {
+      "type": "text",
+      "data": "embed.php"
+    },
+    {
+      "type": "code",
+      "language": "yaml",
+      "data": "<?php \n    echo \"hello student\";\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>7. Using Dynamic Data</h3>"
+    },
+    {
+      "type": "text",
+      "data": "Install Emmet Plugin in Visual Stuido Code"
+    },
+    {
+      "type": "text",
+      "data": "And use the short cut button as ‘!’ + Tab"
+    },
+    {
+      "type": "text",
+      "data": "dymanic_text.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n</head>\n<body>\n    <?php \n        $title = \"Mer Miracle Official Site\";\n    ?>\n    <h1><?php echo $title; ?></h1>\n</body>\n</html>"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

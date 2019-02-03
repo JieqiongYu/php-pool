@@ -1,0 +1,52 @@
+{
+  "title": "5 - PHP Built-in Functions ",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h3>28. Math Functions</h3>"
+    },
+    {
+      "type": "text",
+      "data": "math_functions.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  echo pow(2,7);\n  echo \"<br>\";\n  echo rand();\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>29. String Functions</h3>"
+    },
+    {
+      "type": "text",
+      "data": "string_functions.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  $string_sample = \"Hello student, do you like the class?\";\n  echo strlen($string_sample);\n  echo strtoupper($string_sample);\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>30. Array Functions&nbsp;</h3>"
+    },
+    {
+      "type": "text",
+      "data": "array_functions.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  $array_sample = [343, 34, 323, 23, 54, 232, 453];\n  echo max($array_sample);\n  echo \"<br>\";\n  echo min($array_sample);\n  echo \"<br>\";\n  print_r($array_sample);\n  echo \"<br>\";\n  sort($array_sample);\n  print_r($array_sample);\n?>"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

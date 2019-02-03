@@ -1,0 +1,115 @@
+{
+  "title": "4 - Custom Functions ",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h3>22. Defining functions&nbsp;</h3>"
+    },
+    {
+      "type": "text",
+      "data": "functions.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  function say_something() {\n    echo \"Hello student, do you like the class? yes? okay great\";\n  }\n  say_something();\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>23. Function Parameters</h3>"
+    },
+    {
+      "type": "text",
+      "data": "passing_params_functions.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  $message = \"Mer\";\n  function greeting($message) {\n    echo $message;\n  }\n  greeting($message);\n?>"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  function calculate($number1, $number2) {\n    $sum = $number1 + $number2;\n    echo $sum;\n  }\n\n  calculate(12, 24);\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>24. Return Values From Functions&nbsp;</h3>"
+    },
+    {
+      "type": "text",
+      "data": "return_values_functions.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  function add_numbers($number1, $number2) {\n    $sum = $number1 + $number2;\n    return $sum;\n  }\n  \n  echo add_numbers(34, 64);\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>25. Global Variable and Scope&nbsp;</h3>"
+    },
+    {
+      "type": "text",
+      "data": "scope.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  $global_variable = \"outside\";\n\n  function convert() {\n    $global_variable = \"inside\";\n  }\n\n  echo $global_variable;\n  echo \"<br>\";\n  convert();\n  echo $global_variable;\n\n  function change_global() {\n    global $global_variable;\n    $global_variable = \"inside\";\n  }\n\n  echo \"<br>\";\n  change_global();\n  echo $global_variable;\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>26. Constants</h3>"
+    },
+    {
+      "type": "text",
+      "data": "constants.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  define(\"NAME\", 1000);\n  echo NAME;\n?>"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

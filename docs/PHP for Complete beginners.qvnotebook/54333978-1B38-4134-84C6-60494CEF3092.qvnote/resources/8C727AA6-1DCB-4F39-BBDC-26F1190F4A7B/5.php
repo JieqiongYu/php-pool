@@ -1,33 +1,35 @@
-
 <?php include "functions.php"; ?>
 <?php include "includes/header.php";?>
-
 	<section class="content">
 
 		<aside class="col-xs-4">
-		
 		<?php Navigation();?>
+			
 			
 		</aside><!--SIDEBAR-->
 
 
 <article class="main-content col-xs-8">
- 
 
-	<?php  
+	
+	<?php 
 
-/*  Step1: Make a form that submits one value to POST super global
 
+/*  Step1: Use a pre-built math function here and echo it
+
+
+	Step 2:  Use a pre-built string function here and echo it
+
+
+	Step 3:  Use a pre-built Array function here and echo it
 
  */
-	if(isset($_POST['submit'])) {
-		echo $_POST['submit'];
-	}
+
+	
 ?>
 
-<form action="6.php" method="post">
-	<input type="submit" name="submit" value="SUBMIT">
-</form>
+
+
 
 
 </article><!--MAIN CONTENT-->

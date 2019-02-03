@@ -1,0 +1,150 @@
+{
+  "title": "6 - How To Use Form Data in PHP",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h3>32. Checking for Form Submission</h3>"
+    },
+    {
+      "type": "text",
+      "data": "/demo/form.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\nif(isset($_POST['submit'])) {\n    echo \"yes it works\";\n}\n?>\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Document</title>\n</head>\n<body>\n<form action=\"form.php\" method=\"post\">\n    <input type=\"text\" placeholder=\"Enter Username\">\n    <input type=\"password\" placeholder=\"Enter Password\"><br>\n    <input type=\"submit\" name=\"submit\">\n</form>\n</body>\n</html>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>33. Extracting Information from form</h3>"
+    },
+    {
+      "type": "text",
+      "data": "/demo/form.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\nif(isset($_POST['submit'])) {\n    $username = $_POST['username'];\n    $password = $_POST['password'];\n    echo $password;\n    echo $username;\n}\n?>\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Document</title>\n</head>\n<body>\n<form action=\"form.php\" method=\"post\">\n    <input type=\"text\" name=\"username\" placeholder=\"Enter Username\">\n    <input type=\"password\" name=\"password\" placeholder=\"Enter Password\"><br>\n    <input type=\"submit\" name=\"submit\">\n</form>\n</body>\n</html>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>34. Validating The Form Values</h3>"
+    },
+    {
+      "type": "text",
+      "data": "/demo/form.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\nif(isset($_POST['submit'])) {\n\n    $minimum = 1;\n    $maximum = 10;\n    $name = array(\"Mer\", \"JQ\", \"YU\", \"Peter\", \"Edwin\", \"Maria\");\n    \n    $username = $_POST['username'];\n    $password = $_POST['password'];\n\n    if (strlen($username) < $minimum) {\n        echo \"Username has to be longer than one\";\n    }\n\n    if (strlen($username) > $maximum) {\n        echo \"Username cannot be longer than ten\";\n    }\n\n    if (!in_array($username, $name)) {\n        echo \"Sorry you are not allowed\";\n    } else {\n        echo \"Welcome\";\n    }\n}\n?>\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Document</title>\n</head>\n<body>\n<form action=\"form.php\" method=\"post\">\n    <input type=\"text\" name=\"username\" placeholder=\"Enter Username\">\n    <input type=\"password\" name=\"password\" placeholder=\"Enter Password\"><br>\n    <input type=\"submit\" name=\"submit\">\n</form>\n</body>\n</html>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>35. External Page Submission</h3>"
+    },
+    {
+      "type": "text",
+      "data": "/demo/form_external.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n</head>\n<body>\n    <form action=\"form_process.php\" method=\"post\">\n        <input type=\"text\" name=\"username\" placeholder=\"Enter Username\">\n        <input type=\"password\" name=\"password\" placeholder=\"Enter Password\"><br>\n        <input type=\"submit\" name=\"submit\">\n    </form>\n</body>\n</html>"
+    },
+    {
+      "type": "text",
+      "data": "/demo/form_external.php"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\nif(isset($_POST['submit'])) {\n\n    $minimum = 1;\n    $maximum = 10;\n    $name = array(\"Mer\", \"JQ\", \"YU\", \"Peter\", \"Edwin\", \"Maria\");\n    \n    $username = $_POST['username'];\n    $password = $_POST['password'];\n\n    if (strlen($username) < $minimum) {\n        echo \"Username has to be longer than one\";\n    }\n\n    if (strlen($username) > $maximum) {\n        echo \"Username cannot be longer than ten\";\n    }\n\n    if (!in_array($username, $name)) {\n        echo \"Sorry you are not allowed\";\n    } else {\n        echo \"Welcome\";\n    }\n}\n?>"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

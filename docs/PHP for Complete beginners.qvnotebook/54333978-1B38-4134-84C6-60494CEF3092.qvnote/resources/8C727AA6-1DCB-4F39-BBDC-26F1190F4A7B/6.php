@@ -20,14 +20,9 @@
 
 
  */
-	if(isset($_POST['submit'])) {
-		echo $_POST['submit'];
-	}
-?>
 
-<form action="6.php" method="post">
-	<input type="submit" name="submit" value="SUBMIT">
-</form>
+	
+?>
 
 
 </article><!--MAIN CONTENT-->

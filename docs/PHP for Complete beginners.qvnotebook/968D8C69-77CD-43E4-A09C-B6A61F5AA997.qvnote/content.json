@@ -1,0 +1,107 @@
+{
+  "title": "3 - Control Structures ",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h3>15. if Statements&nbsp;</h3>"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  if (3 < 10) {          \n    echo \"three is less than ten\";\n  } \n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>16. Comparison and Logical Operators&nbsp;</h3>"
+    },
+    {
+      "type": "text",
+      "data": "<b>Comparison Operators&nbsp;</b>"
+    },
+    {
+      "type": "text",
+      "data": "<pre style=\"color: rgb(0, 0, 0); font-variant-ligatures: normal; orphans: 2; widows: 2;\"><ul><li><span style=\"font-family: -apple-system, Helvetica, Arial, sans-serif;\">equal ==</span></li><li><span style=\"font-family: -apple-system, Helvetica, Arial, sans-serif;\">identical ===&nbsp;</span></li><li><span style=\"font-family: -apple-system, Helvetica, Arial, sans-serif;\">compare &gt; &lt; &gt;= &lt;= &lt;&gt;</span></li><li><span style=\"font-family: -apple-system, Helvetica, Arial, sans-serif;\">not equal !=</span></li><li><span style=\"font-family: -apple-system, Helvetica, Arial, sans-serif;\">not identical !==</span></li></ul></pre>"
+    },
+    {
+      "type": "text",
+      "data": "<b>Logical Operators</b>"
+    },
+    {
+      "type": "text",
+      "data": "<ul><li>And &amp;&amp;</li><li>Or ||</li><li>Not !</li></ul>"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  if (4 === \"4\" || 5 < 10) {\n    echo \"It is true\";\n  }\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>17. Switch Statements in PHP</h3>"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  $number = 10;\n\n  switch($number) {\n    case 10: \n      echo \"it is 10\";\n      break;\n    case 37:\n      echo \"it is 37\";\n  }\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>18. While Loop in PHP</h3>"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  $number = 3;\n  while ($number < 10) {\n    $number++;\n    echo \"Hello\";\n  }\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>19. For Loop in PHP</h3>"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php\n  for ($counter = 0; $counter < 10; $counter++) {\n    echo $counter;\n  }\n?>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>20. Foreach Loop in PHP</h3>"
+    },
+    {
+      "type": "code",
+      "language": "php",
+      "data": "<?php \n  $numbers = array(345, 397, 676, 385, 2657, 5784);\n  foreach($numbers as $number) {\n    echo $number . \"<br>\";\n  }\n?>"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}
